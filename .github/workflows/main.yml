@@ -196,7 +196,6 @@ jobs:
           sudo docker compose -f docker-compose.production.yml exec backend cp -r /app/collected_static/. /backend_static/static/
 
 
-
 # # .github/workflows/main.yml
 # name: Main Taski workflow
 
